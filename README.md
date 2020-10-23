@@ -1,7 +1,7 @@
 # magentoChampions
 TestForMagento
 
-<strong>Basic Instal magento:</strong>
+<strong>Basic Instal magento:</strong><br>
 1- Installing Magento Using Xampp in a localhost appache server.<br>
 2- Solving 3 php extention issues before continuing the setup.<br>
 3- Creating an SQL database using phpmyadmin.<br>
