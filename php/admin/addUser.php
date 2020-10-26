@@ -54,12 +54,12 @@ echo '<h4 style="text-align:center; text-decoration-style: solid;
      to the server then match the title to retreive it later-->
     <div class="input-group">
         <label>Upload Your Image:</label>
-    		<input type="text" name="img">
+    		<input type="text" name="img" placeholder="1.png">
     </div>
 
 		<div class="input-group">
 			<label>Customer name:</label>
-			<input type="text" name="username">
+			<input type="text" name="username" placeholder="JON DOE">
 		</div>
 
     <div class="input-group">
@@ -69,7 +69,7 @@ echo '<h4 style="text-align:center; text-decoration-style: solid;
 
 		<div class="input-group">
 			<label>Email:</label>
-			<input type="email" name="email">
+			<input type="email" name="email" placeholder="yassiribararh@gmail.com">
 		</div>
 
     <div class="input-group">
