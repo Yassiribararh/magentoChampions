@@ -16,3 +16,9 @@ TestForMagento
 3- php bin/magento indexer:reindex (arranges all the files again in magento)<br>
 4- php bin/magento module:status (Check the status of all the existing modules)<br>
 (Tutorial used: https://magemastery.net/courses/magento-2-beginner/)
+
+<strong>Important Notes !</strong><br>
+After trying to install another version of magento with no sample data, the instalation couldn't be proceded even that <br>
+i have tried to download many different versions from 2.3.0 to 2.4.0 but the same problem occured.<br>
+Therefore, in this repository, you can find a simple module create using magento.<br>
+The rest is in the php folder where the continuation of the work was done using php, html , sql and css to complete the test.<br>
