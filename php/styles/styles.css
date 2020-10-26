@@ -1,0 +1,234 @@
+
+/* Admin Page styles */
+.header {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.logo {
+  max-width: 30%;
+}
+
+.form {
+  text-align: center;
+}
+
+/* form styles */
+form, .content {
+	width: 40%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+#user_type {
+	height: 40px;
+	width: 98%;
+	padding: 5px 10px;
+	background: white;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+/* Admin form buttons */
+.btn {
+  	width: 100%;
+  	padding: 15px;
+   	margin-top: 20px;
+  	background-color: darkred;
+  	border: 0;
+  	cursor: pointer;
+  	font-weight: bold;
+  	color: #ffffff;
+  	transition: background-color 0.2s;
+}
+.btn:hover {
+	background-color: #2868c7;
+  	transition: background-color 0.2s;
+}
+
+/* User home page buttons */
+.bton {
+  padding: 20px 30px 20px 30px;
+  background-color: deeppink;
+  color: white;
+}
+.searchbox a:hover {
+
+   cursor: pointer;
+
+   background-color: yellow;
+ }
+
+ /*..center align items..*/
+ .center-align{
+   text-align: center;
+ }
+
+ /*..tags css..*/
+ .a:link, .a:visited {
+   background-color: #f44336;
+   color: white;
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+ }
+
+ .a:hover, .a:active {
+   background-color: red;
+ }
+
+ /* User Home page styles */
+
+ /* navigation bar*/
+ .navigation-bar{
+   text-align: center;
+   margin: auto;
+   width:100%;
+    background-color: deeppink;
+ }
+
+ .nav {
+ list-style-type: none;
+ margin: 0;
+ margin: auto;
+ overflow: hidden;
+
+ display: inline-block;
+ }
+
+ .nav li {
+ float: left;
+
+ }
+
+ .nav li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 30px;
+ text-decoration: none;
+ margin: auto;
+ }
+
+ @media only screen and (max-width: 600px) {
+  .nav {
+    width:100%;
+  }
+}
+
+
+ /* Change the link color to #111 (black) on hover */
+ .nav li a:hover {
+ background-color: #111;
+ }
+
+ /*description with call to action button styles*/
+#page_summary {
+  border-style: solid;
+  padding: 20px 0 20px 0;
+}
+
+/* seperator */
+
+.devide-page {
+  height: 5px;
+  background-color: deeppink;
+  margin-top: 20px;
+}
+
+
+/* User Home page styles */
+
+/*Desktop styles */
+@media only screen and (min-width: 1000px) {
+  .customers{
+    display: table;
+    width: 100%;
+    list-style-type: none;
+  }
+
+  .customers img{
+    width:50%;
+  }
+
+  .left {
+      width: 50%;
+      list-style-type: none;
+  }
+  .right {
+    position: absolute;
+    right: 80px;
+    width: 50%;
+    list-style-type: none;
+  }
+
+  .about {
+    background-color: #D0D0D0;
+    width: 80%;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .about ul {
+    list-style-type: none;
+  }
+}
+
+/*tablet and phones */
+@media only screen and (max-width: 999px) {
+  .customers{
+    display: block;
+    width: 90%;
+    list-style-type: none;
+  }
+
+  .customers img{
+    width:100%;
+  }
+
+  .left {
+
+      list-style-type: none;
+  }
+  .right {
+    position: relative;
+
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .about {
+    background-color: #D0D0D0;
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .about ul {
+    list-style-type: none;
+  }
+
+}
